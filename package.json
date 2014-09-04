@@ -15,5 +15,9 @@
   "license": "MIT",
   "devDependencies": {
     "zetta-auto-scout": "^0.2.0"
+  },
+  "dependencies": {
+    "zetta": "^0.8.0",
+    "twilio": "^1.7.0"
   }
 }
