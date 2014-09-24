@@ -1,6 +1,6 @@
 {
   "name": "zetta-twilio-driver",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Twilio Driver for Zetta",
   "main": "twilio_driver.js",
   "scripts": {
