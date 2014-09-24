@@ -1,5 +1,4 @@
-var zetta = require('zetta');
-var Device = zetta.Device;
+var Device = require('zetta-device');
 var util = require('util');
 var twilio = require('twilio');
 

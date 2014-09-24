@@ -18,7 +18,8 @@
     "zetta-sonos-driver": "^0.2.0"
   },
   "dependencies": {
-    "zetta": "^0.8.0",
-    "twilio": "^1.7.0"
+    "zetta": "^0.11.0",
+    "twilio": "^1.7.0",
+    "zetta-device": "^0.3.0"
   }
 }
