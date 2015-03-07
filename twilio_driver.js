@@ -4,7 +4,7 @@ var twilio = require('twilio');
 
 var TwilioDriver = module.exports = function(opts) {
   Device.call(this);
-  this._twilio = twilio();
+  this._twilio = twilio(opts.accountSid, opts.authToken);
   this.phoneNumber = opts.phoneNumber;
 };
 util.inherits(TwilioDriver, Device);
