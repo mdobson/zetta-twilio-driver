@@ -3,8 +3,12 @@ var Twilio = require('../');
 var SonosDriver = require('zetta-sonos-driver');
 var app = require('./app');
 
+/* Get phoneNumber, accountSid & authToken from your account in twilio */
+
 var twilioOpts = {
-  phoneNumber:'+17342452497'
+  phoneNumber:'+XXXXXXXXXX',
+  accountSid: process.env.TWILIO_ACCOUNT_SID,
+  authToken: process.env.TWILIO_AUTH_TOKEN,
 };
 
 
@@ -14,4 +18,3 @@ zetta()
   .use(SonosDriver)
   .use(app)
   .listen(1337);
-
