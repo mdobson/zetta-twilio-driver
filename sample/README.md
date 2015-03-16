@@ -6,7 +6,14 @@ Usage : Initiate your node app after setting Twilio Account SID & Auth token via
 
 Example :
 
+
+```sh
 $ export TWILIO_ACCOUNT_SID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-$ export TWILIO_AUTH_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+```sh
+$ export TWILIO_AUTH_TOKEN=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
 
 Run your application  
